@@ -2,9 +2,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    padding: 20px 0;
 }
 
 .nav-list {
     display: flex;
     align-items: center;
+}          // Центрує їх по вертикалі
+
+.nav-list {
+    display: flex;
+    gap: 30px; // Відстань між пунктами меню
+}
+
+.nav-list a {
+    color: $color-secondary;
+    font-weight: 600;
+    transition: color 250ms;
+
+    &:hover {
+        color: $color-primary; // Колір змінюється при наведенні
+    }
 }

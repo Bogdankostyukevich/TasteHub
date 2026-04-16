@@ -1,0 +1,12 @@
+.hero {
+    background-color: $color-secondary;
+    color: $color-white;
+    padding: 100px 0;
+    text-align: center;
+
+    h1 {
+        font-family: $font-title;
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+}
